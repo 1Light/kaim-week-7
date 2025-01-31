@@ -10,32 +10,13 @@ This project, developed by Kara Solutions, focuses on building a robust, scalabl
 4. **Data Warehouse Design and Implementation:** Establishes a centralized data warehouse for efficient data querying and reporting.
 5. **Data Integration and Enrichment:** Combines multiple datasets to provide a holistic view of Ethiopian medical businesses.
 
-## Project Structure
-```
-├── data_scraping
-│   ├── telegram_scraper.py
-│   └── image_scraper.py
-├── data_cleaning
-│   ├── data_cleaning_pipeline.py
-│   └── transformation_models.sql
-├── object_detection
-│   └── yolo_integration.py
-├── data_warehouse
-│   ├── warehouse_schema.sql
-│   └── warehouse_loader.py
-├── dbt_project
-│   ├── dbt_project.yml
-│   └── models/
-└── README.md
-```
-
 ## Installation
 To set up the project locally, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone <repository-url>
-    cd <repository-folder>
+    git clone https://github.com/1Light/kaim-week-7.git
+    cd kaim-week-7
     ```
 2. Install the required Python packages:
     ```bash
